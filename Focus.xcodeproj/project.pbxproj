@@ -15,6 +15,18 @@
 		820207A21D7097630017676D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 820207A01D7097630017676D /* LaunchScreen.storyboard */; };
 		820207AD1D7097640017676D /* FocusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 820207AC1D7097640017676D /* FocusTests.m */; };
 		820207B81D7097640017676D /* FocusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 820207B71D7097640017676D /* FocusUITests.m */; };
+		820207CA1D7097860017676D /* TXHRulerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 820207C81D7097860017676D /* TXHRulerScrollView.m */; };
+		820207CD1D70C18E0017676D /* AppStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 820207CC1D70C18E0017676D /* AppStatus.m */; };
+		820207D51D70E20D0017676D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820207D41D70E20D0017676D /* NotificationCenter.framework */; };
+		820207E01D70E20D0017676D /* FocusWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 820207D21D70E20D0017676D /* FocusWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		820207EA1D7180980017676D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820207E91D7180980017676D /* AudioToolbox.framework */; };
+		820207EB1D7180A90017676D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820207E91D7180980017676D /* AudioToolbox.framework */; };
+		8235E6D01E21EEFD0069D732 /* TXHRrettyRuler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8235E6CF1E21EEFD0069D732 /* TXHRrettyRuler.m */; };
+		8235E6D21E21F08E0069D732 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 820207D81D70E20D0017676D /* TodayViewController.m */; };
+		828283371D84F5260015291F /* Bugu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 828283361D84F5260015291F /* Bugu.caf */; };
+		828283381D84F5260015291F /* Bugu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 828283361D84F5260015291F /* Bugu.caf */; };
+		828283391D84F5260015291F /* Bugu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 828283361D84F5260015291F /* Bugu.caf */; };
+		8282833A1D84F5260015291F /* Bugu.caf in Resources */ = {isa = PBXBuildFile; fileRef = 828283361D84F5260015291F /* Bugu.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +44,28 @@
 			remoteGlobalIDString = 8202078E1D7097630017676D;
 			remoteInfo = Focus;
 		};
+		820207DE1D70E20D0017676D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 820207871D7097630017676D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 820207D11D70E20D0017676D;
+			remoteInfo = FocusWidget;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		820207E41D70E20D0017676D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				820207E01D70E20D0017676D /* FocusWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8202078F1D7097630017676D /* Focus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Focus.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +84,21 @@
 		820207B31D7097640017676D /* FocusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		820207B71D7097640017676D /* FocusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FocusUITests.m; sourceTree = "<group>"; };
 		820207B91D7097640017676D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820207C71D7097860017676D /* TXHRulerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXHRulerScrollView.h; sourceTree = "<group>"; };
+		820207C81D7097860017676D /* TXHRulerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXHRulerScrollView.m; sourceTree = "<group>"; };
+		820207CB1D70C18E0017676D /* AppStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStatus.h; sourceTree = "<group>"; };
+		820207CC1D70C18E0017676D /* AppStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStatus.m; sourceTree = "<group>"; };
+		820207D21D70E20D0017676D /* FocusWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FocusWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		820207D41D70E20D0017676D /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		820207D71D70E20D0017676D /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		820207D81D70E20D0017676D /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		820207DD1D70E20D0017676D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		820207E51D70E3E50017676D /* FocusWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = FocusWidget.entitlements; path = FocusWidget/FocusWidget.entitlements; sourceTree = "<group>"; };
+		820207E61D70E4140017676D /* Focus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Focus.entitlements; sourceTree = "<group>"; };
+		820207E91D7180980017676D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8235E6CE1E21EEFD0069D732 /* TXHRrettyRuler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXHRrettyRuler.h; sourceTree = "<group>"; };
+		8235E6CF1E21EEFD0069D732 /* TXHRrettyRuler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXHRrettyRuler.m; sourceTree = "<group>"; };
+		828283361D84F5260015291F /* Bugu.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bugu.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820207EB1D7180A90017676D /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,15 +124,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		820207CF1D70E20D0017676D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820207D51D70E20D0017676D /* NotificationCenter.framework in Frameworks */,
+				820207EA1D7180980017676D /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		820207861D7097630017676D = {
 			isa = PBXGroup;
 			children = (
+				820207E51D70E3E50017676D /* FocusWidget.entitlements */,
 				820207911D7097630017676D /* Focus */,
 				820207AB1D7097640017676D /* FocusTests */,
 				820207B61D7097640017676D /* FocusUITests */,
+				820207D31D70E20D0017676D /* Frameworks */,
 				820207901D7097630017676D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +154,7 @@
 				8202078F1D7097630017676D /* Focus.app */,
 				820207A81D7097640017676D /* FocusTests.xctest */,
 				820207B31D7097640017676D /* FocusUITests.xctest */,
+				820207D21D70E20D0017676D /* FocusWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,14 +162,24 @@
 		820207911D7097630017676D /* Focus */ = {
 			isa = PBXGroup;
 			children = (
+				820207E61D70E4140017676D /* Focus.entitlements */,
+				8235E6CE1E21EEFD0069D732 /* TXHRrettyRuler.h */,
+				8235E6CF1E21EEFD0069D732 /* TXHRrettyRuler.m */,
+				820207C71D7097860017676D /* TXHRulerScrollView.h */,
+				820207C81D7097860017676D /* TXHRulerScrollView.m */,
 				820207951D7097630017676D /* AppDelegate.h */,
 				820207961D7097630017676D /* AppDelegate.m */,
 				820207981D7097630017676D /* ViewController.h */,
 				820207991D7097630017676D /* ViewController.m */,
+				820207CB1D70C18E0017676D /* AppStatus.h */,
+				820207CC1D70C18E0017676D /* AppStatus.m */,
 				8202079B1D7097630017676D /* Main.storyboard */,
 				8202079E1D7097630017676D /* Assets.xcassets */,
+				828283361D84F5260015291F /* Bugu.caf */,
 				820207A01D7097630017676D /* LaunchScreen.storyboard */,
 				820207A31D7097630017676D /* Info.plist */,
+				820207EC1D71957F0017676D /* guideView */,
+				820207D61D70E20D0017676D /* FocusWidget */,
 				820207921D7097630017676D /* Supporting Files */,
 			);
 			path = Focus;
@@ -140,6 +211,32 @@
 			path = FocusUITests;
 			sourceTree = "<group>";
 		};
+		820207D31D70E20D0017676D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				820207E91D7180980017676D /* AudioToolbox.framework */,
+				820207D41D70E20D0017676D /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		820207D61D70E20D0017676D /* FocusWidget */ = {
+			isa = PBXGroup;
+			children = (
+				820207D71D70E20D0017676D /* TodayViewController.h */,
+				820207D81D70E20D0017676D /* TodayViewController.m */,
+				820207DD1D70E20D0017676D /* Info.plist */,
+			);
+			path = FocusWidget;
+			sourceTree = SOURCE_ROOT;
+		};
+		820207EC1D71957F0017676D /* guideView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = guideView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,10 +247,12 @@
 				8202078B1D7097630017676D /* Sources */,
 				8202078C1D7097630017676D /* Frameworks */,
 				8202078D1D7097630017676D /* Resources */,
+				820207E41D70E20D0017676D /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				820207DF1D70E20D0017676D /* PBXTargetDependency */,
 			);
 			name = Focus;
 			productName = Focus;
@@ -196,6 +295,23 @@
 			productReference = 820207B31D7097640017676D /* FocusUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		820207D11D70E20D0017676D /* FocusWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 820207E11D70E20D0017676D /* Build configuration list for PBXNativeTarget "FocusWidget" */;
+			buildPhases = (
+				820207CE1D70E20D0017676D /* Sources */,
+				820207CF1D70E20D0017676D /* Frameworks */,
+				820207D01D70E20D0017676D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusWidget;
+			productName = FocusWidget;
+			productReference = 820207D21D70E20D0017676D /* FocusWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,6 +323,15 @@
 				TargetAttributes = {
 					8202078E1D7097630017676D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5XQ8B3L3WA;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
 					};
 					820207A71D7097640017676D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -215,6 +340,18 @@
 					820207B21D7097640017676D = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = 8202078E1D7097630017676D;
+					};
+					820207D11D70E20D0017676D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5XQ8B3L3WA;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -234,6 +371,7 @@
 				8202078E1D7097630017676D /* Focus */,
 				820207A71D7097640017676D /* FocusTests */,
 				820207B21D7097640017676D /* FocusUITests */,
+				820207D11D70E20D0017676D /* FocusWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -246,6 +384,7 @@
 				820207A21D7097630017676D /* LaunchScreen.storyboard in Resources */,
 				8202079F1D7097630017676D /* Assets.xcassets in Resources */,
 				8202079D1D7097630017676D /* Main.storyboard in Resources */,
+				828283371D84F5260015291F /* Bugu.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +392,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828283381D84F5260015291F /* Bugu.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +400,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				828283391D84F5260015291F /* Bugu.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820207D01D70E20D0017676D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8282833A1D84F5260015291F /* Bugu.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +421,10 @@
 			files = (
 				8202079A1D7097630017676D /* ViewController.m in Sources */,
 				820207971D7097630017676D /* AppDelegate.m in Sources */,
+				820207CA1D7097860017676D /* TXHRulerScrollView.m in Sources */,
+				820207CD1D70C18E0017676D /* AppStatus.m in Sources */,
 				820207941D7097630017676D /* main.m in Sources */,
+				8235E6D01E21EEFD0069D732 /* TXHRrettyRuler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +444,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		820207CE1D70E20D0017676D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8235E6D21E21F08E0069D732 /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -304,6 +464,11 @@
 			isa = PBXTargetDependency;
 			target = 8202078E1D7097630017676D /* Focus */;
 			targetProxy = 820207B41D7097640017676D /* PBXContainerItemProxy */;
+		};
+		820207DF1D70E20D0017676D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 820207D11D70E20D0017676D /* FocusWidget */;
+			targetProxy = 820207DE1D70E20D0017676D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -415,10 +580,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Focus/Focus.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Focus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.com.Focus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.Focus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -426,10 +596,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Focus/Focus.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Focus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.com.Focus;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.Focus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -479,6 +654,38 @@
 			};
 			name = Release;
 		};
+		820207E21D70E20D0017676D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FocusWidget/FocusWidget.entitlements;
+				DEVELOPMENT_TEAM = 5XQ8B3L3WA;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				INFOPLIST_FILE = FocusWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks $(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.Focus.FocusWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		820207E31D70E20D0017676D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FocusWidget/FocusWidget.entitlements;
+				DEVELOPMENT_TEAM = 5XQ8B3L3WA;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				INFOPLIST_FILE = FocusWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks $(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lee.Focus.FocusWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -498,6 +705,7 @@
 				820207BE1D7097640017676D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		820207BF1D7097640017676D /* Build configuration list for PBXNativeTarget "FocusTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +714,7 @@
 				820207C11D7097640017676D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		820207C21D7097640017676D /* Build configuration list for PBXNativeTarget "FocusUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +723,16 @@
 				820207C41D7097640017676D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		820207E11D70E20D0017676D /* Build configuration list for PBXNativeTarget "FocusWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				820207E21D70E20D0017676D /* Debug */,
+				820207E31D70E20D0017676D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
